@@ -2,5 +2,6 @@
 
 Two variables are introduced in`FSI/ForceBase.H` to convert the pressure from absolute to relative by substracting the `atmosphere pressure`.
 
-1. `./Allclean`
-2. `./Allwmake -j` or `./Allwmake`
+1. Remember to edit `Make/files` to make sure to rename the shared object file to avoid overwriting the original version
+2. `./Allclean`
+3. `./Allwmake -j` or `./Allwmake`
