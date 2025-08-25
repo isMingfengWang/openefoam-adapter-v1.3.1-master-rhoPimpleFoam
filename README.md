@@ -5,3 +5,6 @@ Two variables are introduced in`FSI/ForceBase.H` to convert the pressure from ab
 1. Remember to edit `Make/files` to make sure to rename the shared object file to avoid overwriting the original version
 2. `./Allclean`
 3. `./Allwmake -j` or `./Allwmake`
+
+
+If `preCICE` is installed in a cluster by `spack`, remember to `spack load precice-version` before builting.
