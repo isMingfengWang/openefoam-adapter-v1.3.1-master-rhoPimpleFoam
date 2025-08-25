@@ -1,4 +1,4 @@
-## preCICE-OpenFOAM(v2306)-adapter(v1.3.1)-rhoPimpleFoam
+## preCICE(v3.1.2)-OpenFOAM(v2306)-adapter(v1.3.1)-rhoPimpleFoam
 
 Two variables are introduced in`FSI/ForceBase.H` to convert the pressure from absolute to relative by substracting the `atmosphere pressure`.
 
